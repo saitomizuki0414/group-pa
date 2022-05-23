@@ -155,3 +155,10 @@ input[type="checkbox"] {
   max-width: 980px;
   margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 94%;
+    margin: auto;
+  }
+}
