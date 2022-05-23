@@ -162,3 +162,23 @@ input[type="checkbox"] {
     margin: auto;
   }
 }
+
+.gl-header {
+  height: 140px;
+  padding-top: 15px;
+  background:
+    linear-gradient(110deg,
+      #000 0%,
+      rgba(27, 18, 18, .7) 70%,
+      rgba(27, 18, 18, .8) 100%),
+    url("../images/wood.jpg") 0 0 / contain repeat-x;
+  background-blend-mode: hard-light;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-header {
+    height: auto;
+    margin-bottom: -10px;
+    background-size: cover;
+  }
+}
