@@ -148,3 +148,111 @@ input[type="checkbox"] {
   }
 }
 
+/*-------------------------
+グローバル
+-------------------------*/
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 94%;
+    margin: auto;
+  }
+}
+
+.gl-header {
+  height: 140px;
+  padding-top: 15px;
+  background:
+    linear-gradient(110deg,
+      #000 0%,
+      rgba(27, 18, 18, .7) 70%,
+      rgba(27, 18, 18, .8) 100%),
+    url("../images/wood.jpg") 0 0 / contain repeat-x;
+  background-blend-mode: hard-light;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-header {
+    height: auto;
+    margin-bottom: -10px;
+    background-size: cover;
+  }
+}
+
+.logo {
+  width: 200px;
+  height: 65px;
+  background: url("../images/logo.png") 0 0 / cover no-repeat;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin: auto;
+  }
+}
+
+.logo a {
+  display: block;
+  width: 200px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+.gl-nav ul {
+  display: table;
+  list-style-type: none;
+  table-layout: fixed;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-nav ul {
+    display: block;
+  }
+}
+
+.gl-nav li {
+  display: table-cell;
+  text-align: center;
+  border-right: 2px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-nav li {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.gl-nav li a {
+  display: block;
+  color: #ccc;
+  text-shadow: 0 0 5px #000;
+}
+
+.gl-nav li a:hover {
+  color: #a86;
+}
+
+.gl-footer {
+  height: 120px;
+  margin-top: 50px;
+  padding-top: 50px;
+  background: #211 url("../images/grunge.jpg") 0 top repeat-x;
+  color: #ccc;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-footer {
+    line-height: 1.5;
+    height: 40vw;
+  }
+}
