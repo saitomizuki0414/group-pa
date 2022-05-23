@@ -209,3 +209,49 @@ input[type="checkbox"] {
   table-layout: fixed;
   width: 100%;
 }
+
+
+@media screen and (max-width: 768px) {
+  .gl-nav ul {
+    display: block;
+  }
+}
+
+.gl-nav li {
+  display: table-cell;
+  text-align: center;
+  border-right: 2px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-nav li {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+
+.gl-nav li {
+  display: table-cell;
+  text-align: center;
+  border-right: 2px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .gl-nav li {
+    display: block;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+.gl-nav li a {
+  display: block;
+  color: #ccc;
+  text-shadow: 0 0 5px #000;
+}
+
+.gl-nav li a:hover {
+  color: #a86;
+}
