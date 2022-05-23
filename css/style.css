@@ -231,21 +231,6 @@ input[type="checkbox"] {
   }
 }
 
-
-.gl-nav li {
-  display: table-cell;
-  text-align: center;
-  border-right: 2px solid #000;
-}
-
-@media screen and (max-width: 768px) {
-  .gl-nav li {
-    display: block;
-    padding: 10px;
-    text-align: center;
-  }
-}
-
 .gl-nav li a {
   display: block;
   color: #ccc;
