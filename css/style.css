@@ -182,3 +182,30 @@ input[type="checkbox"] {
     background-size: cover;
   }
 }
+
+.logo {
+  width: 200px;
+  height: 65px;
+  background: url("../images/logo.png") 0 0 / cover no-repeat;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin: auto;
+  }
+}
+
+.logo a {
+  display: block;
+  width: 200px;
+  height: 65px;
+  text-indent: -9999px;
+}
+
+.gl-nav ul {
+  display: table;
+  list-style-type: none;
+  table-layout: fixed;
+  width: 100%;
+}
